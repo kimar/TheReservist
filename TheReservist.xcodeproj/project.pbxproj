@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC83AB5419D103E9008F2DA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83AB5319D103E9008F2DA8 /* AppDelegate.swift */; };
+		EC83AB5919D103E9008F2DA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC83AB5719D103E9008F2DA8 /* Main.storyboard */; };
+		EC83AB5E19D103E9008F2DA8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC83AB5C19D103E9008F2DA8 /* LaunchScreen.xib */; };
+		EC83AB6A19D103E9008F2DA8 /* TheReservistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83AB6919D103E9008F2DA8 /* TheReservistTests.swift */; };
+		EC83AB7919D10792008F2DA8 /* StoresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83AB7819D10792008F2DA8 /* StoresViewController.swift */; };
+		EC83AB7B19D1079D008F2DA8 /* PartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83AB7A19D1079D008F2DA8 /* PartsViewController.swift */; };
+		EC83AB8219D10D4B008F2DA8 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC83AB8119D10D4B008F2DA8 /* Alamofire.framework */; };
+		EC83ABAE19D111BD008F2DA8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83ABAD19D111BD008F2DA8 /* SwiftyJSON.swift */; };
+		EC83ABB919D11424008F2DA8 /* Alamofire.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EC83AB9719D11006008F2DA8 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC83ABBC19D11ED8008F2DA8 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC83ABBB19D11ED8008F2DA8 /* Products.swift */; };
+		EC83ABCA19D130D2008F2DA8 /* parts.json in Resources */ = {isa = PBXBuildFile; fileRef = EC83ABC919D130D2008F2DA8 /* parts.json */; };
+		EC9CAF9619D157A900D83DA8 /* PKHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9CAF9519D157A300D83DA8 /* PKHUD.framework */; };
+		EC9CAF9719D157AD00D83DA8 /* PKHUD.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = EC9CAF9519D157A300D83DA8 /* PKHUD.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ECBE94CC19D13C290024E1F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBE94CB19D13C290024E1F9 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC83AB6419D103E9008F2DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC83AB4619D103E9008F2DA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC83AB4D19D103E9008F2DA8;
+			remoteInfo = TheReservist;
+		};
+		EC83AB9619D11006008F2DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC83AB9119D11006008F2DA8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		EC83AB9819D11006008F2DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC83AB9119D11006008F2DA8 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		EC9CAF9219D157A300D83DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9CAF8B19D157A300D83DA8 /* PKHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F99631FC19514FAC001F73CA;
+			remoteInfo = "PKHUD Demo";
+		};
+		EC9CAF9419D157A300D83DA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC9CAF8B19D157A300D83DA8 /* PKHUD.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F996321E19514FD8001F73CA;
+			remoteInfo = PKHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC83AB8319D10D67008F2DA8 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				EC9CAF9719D157AD00D83DA8 /* PKHUD.framework in Copy Frameworks */,
+				EC83ABB919D11424008F2DA8 /* Alamofire.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C8B038FB2CB04EBAA584DB2C /* libPods-TheReservist.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TheReservist.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC83AB4E19D103E9008F2DA8 /* TheReservist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheReservist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC83AB5219D103E9008F2DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC83AB5319D103E9008F2DA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC83AB5819D103E9008F2DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC83AB5D19D103E9008F2DA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC83AB6319D103E9008F2DA8 /* TheReservistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheReservistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC83AB6819D103E9008F2DA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC83AB6919D103E9008F2DA8 /* TheReservistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheReservistTests.swift; sourceTree = "<group>"; };
+		EC83AB7819D10792008F2DA8 /* StoresViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoresViewController.swift; sourceTree = "<group>"; };
+		EC83AB7A19D1079D008F2DA8 /* PartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartsViewController.swift; sourceTree = "<group>"; };
+		EC83AB8119D10D4B008F2DA8 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Alamofire/build/Debug-iphoneos/Alamofire.framework"; sourceTree = "<group>"; };
+		EC83AB9119D11006008F2DA8 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
+		EC83ABAD19D111BD008F2DA8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		EC83ABBB19D11ED8008F2DA8 /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		EC83ABC919D130D2008F2DA8 /* parts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = parts.json; sourceTree = "<group>"; };
+		EC9CAF8B19D157A300D83DA8 /* PKHUD.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PKHUD.xcodeproj; path = PKHUD/PKHUD.xcodeproj; sourceTree = "<group>"; };
+		ECBE94CB19D13C290024E1F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC83AB4B19D103E9008F2DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC9CAF9619D157A900D83DA8 /* PKHUD.framework in Frameworks */,
+				EC83AB8219D10D4B008F2DA8 /* Alamofire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC83AB6019D103E9008F2DA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2239108219B497E8A2BC14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB8119D10D4B008F2DA8 /* Alamofire.framework */,
+				C8B038FB2CB04EBAA584DB2C /* libPods-TheReservist.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC83AB4519D103E9008F2DA8 = {
+			isa = PBXGroup;
+			children = (
+				EC83AB5019D103E9008F2DA8 /* TheReservist */,
+				EC83AB6619D103E9008F2DA8 /* TheReservistTests */,
+				EC83AB4F19D103E9008F2DA8 /* Products */,
+				C2239108219B497E8A2BC14C /* Frameworks */,
+				EC83AB9119D11006008F2DA8 /* Alamofire.xcodeproj */,
+				EC9CAF8B19D157A300D83DA8 /* PKHUD.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		EC83AB4F19D103E9008F2DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB4E19D103E9008F2DA8 /* TheReservist.app */,
+				EC83AB6319D103E9008F2DA8 /* TheReservistTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC83AB5019D103E9008F2DA8 /* TheReservist */ = {
+			isa = PBXGroup;
+			children = (
+				EC83ABAD19D111BD008F2DA8 /* SwiftyJSON.swift */,
+				EC83AB5319D103E9008F2DA8 /* AppDelegate.swift */,
+				EC83AB7819D10792008F2DA8 /* StoresViewController.swift */,
+				EC83AB7A19D1079D008F2DA8 /* PartsViewController.swift */,
+				EC83ABBB19D11ED8008F2DA8 /* Products.swift */,
+				EC83AB5719D103E9008F2DA8 /* Main.storyboard */,
+				EC83AB5C19D103E9008F2DA8 /* LaunchScreen.xib */,
+				EC83ABC919D130D2008F2DA8 /* parts.json */,
+				EC83AB5119D103E9008F2DA8 /* Supporting Files */,
+				ECBE94CB19D13C290024E1F9 /* Images.xcassets */,
+			);
+			path = TheReservist;
+			sourceTree = "<group>";
+		};
+		EC83AB5119D103E9008F2DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB5219D103E9008F2DA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC83AB6619D103E9008F2DA8 /* TheReservistTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB6919D103E9008F2DA8 /* TheReservistTests.swift */,
+				EC83AB6719D103E9008F2DA8 /* Supporting Files */,
+			);
+			path = TheReservistTests;
+			sourceTree = "<group>";
+		};
+		EC83AB6719D103E9008F2DA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB6819D103E9008F2DA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC83AB9219D11006008F2DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC83AB9719D11006008F2DA8 /* Alamofire.framework */,
+				EC83AB9919D11006008F2DA8 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC9CAF8C19D157A300D83DA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC9CAF9319D157A300D83DA8 /* PKHUD Demo.app */,
+				EC9CAF9519D157A300D83DA8 /* PKHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC83AB4D19D103E9008F2DA8 /* TheReservist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC83AB6D19D103E9008F2DA8 /* Build configuration list for PBXNativeTarget "TheReservist" */;
+			buildPhases = (
+				EC83AB4A19D103E9008F2DA8 /* Sources */,
+				EC83AB4B19D103E9008F2DA8 /* Frameworks */,
+				EC83AB4C19D103E9008F2DA8 /* Resources */,
+				EC83AB8319D10D67008F2DA8 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheReservist;
+			productName = TheReservist;
+			productReference = EC83AB4E19D103E9008F2DA8 /* TheReservist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC83AB6219D103E9008F2DA8 /* TheReservistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC83AB7019D103E9008F2DA8 /* Build configuration list for PBXNativeTarget "TheReservistTests" */;
+			buildPhases = (
+				EC83AB5F19D103E9008F2DA8 /* Sources */,
+				EC83AB6019D103E9008F2DA8 /* Frameworks */,
+				EC83AB6119D103E9008F2DA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC83AB6519D103E9008F2DA8 /* PBXTargetDependency */,
+			);
+			name = TheReservistTests;
+			productName = TheReservistTests;
+			productReference = EC83AB6319D103E9008F2DA8 /* TheReservistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC83AB4619D103E9008F2DA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Marcus Kida";
+				TargetAttributes = {
+					EC83AB4D19D103E9008F2DA8 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					EC83AB6219D103E9008F2DA8 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = EC83AB4D19D103E9008F2DA8;
+					};
+				};
+			};
+			buildConfigurationList = EC83AB4919D103E9008F2DA8 /* Build configuration list for PBXProject "TheReservist" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC83AB4519D103E9008F2DA8;
+			productRefGroup = EC83AB4F19D103E9008F2DA8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EC83AB9219D11006008F2DA8 /* Products */;
+					ProjectRef = EC83AB9119D11006008F2DA8 /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = EC9CAF8C19D157A300D83DA8 /* Products */;
+					ProjectRef = EC9CAF8B19D157A300D83DA8 /* PKHUD.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EC83AB4D19D103E9008F2DA8 /* TheReservist */,
+				EC83AB6219D103E9008F2DA8 /* TheReservistTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EC83AB9719D11006008F2DA8 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = EC83AB9619D11006008F2DA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC83AB9919D11006008F2DA8 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = EC83AB9819D11006008F2DA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC9CAF9319D157A300D83DA8 /* PKHUD Demo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "PKHUD Demo.app";
+			remoteRef = EC9CAF9219D157A300D83DA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EC9CAF9519D157A300D83DA8 /* PKHUD.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PKHUD.framework;
+			remoteRef = EC9CAF9419D157A300D83DA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC83AB4C19D103E9008F2DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC83ABCA19D130D2008F2DA8 /* parts.json in Resources */,
+				ECBE94CC19D13C290024E1F9 /* Images.xcassets in Resources */,
+				EC83AB5919D103E9008F2DA8 /* Main.storyboard in Resources */,
+				EC83AB5E19D103E9008F2DA8 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC83AB6119D103E9008F2DA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC83AB4A19D103E9008F2DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC83AB7919D10792008F2DA8 /* StoresViewController.swift in Sources */,
+				EC83AB7B19D1079D008F2DA8 /* PartsViewController.swift in Sources */,
+				EC83ABBC19D11ED8008F2DA8 /* Products.swift in Sources */,
+				EC83AB5419D103E9008F2DA8 /* AppDelegate.swift in Sources */,
+				EC83ABAE19D111BD008F2DA8 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC83AB5F19D103E9008F2DA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC83AB6A19D103E9008F2DA8 /* TheReservistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC83AB6519D103E9008F2DA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC83AB4D19D103E9008F2DA8 /* TheReservist */;
+			targetProxy = EC83AB6419D103E9008F2DA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC83AB5719D103E9008F2DA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC83AB5819D103E9008F2DA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC83AB5C19D103E9008F2DA8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC83AB5D19D103E9008F2DA8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC83AB6B19D103E9008F2DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC83AB6C19D103E9008F2DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC83AB6E19D103E9008F2DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alamofire/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TheReservist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC83AB6F19D103E9008F2DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Alamofire/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TheReservist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC83AB7119D103E9008F2DA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheReservistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheReservist.app/TheReservist";
+			};
+			name = Debug;
+		};
+		EC83AB7219D103E9008F2DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TheReservistTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TheReservist.app/TheReservist";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC83AB4919D103E9008F2DA8 /* Build configuration list for PBXProject "TheReservist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC83AB6B19D103E9008F2DA8 /* Debug */,
+				EC83AB6C19D103E9008F2DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC83AB6D19D103E9008F2DA8 /* Build configuration list for PBXNativeTarget "TheReservist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC83AB6E19D103E9008F2DA8 /* Debug */,
+				EC83AB6F19D103E9008F2DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC83AB7019D103E9008F2DA8 /* Build configuration list for PBXNativeTarget "TheReservistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC83AB7119D103E9008F2DA8 /* Debug */,
+				EC83AB7219D103E9008F2DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC83AB4619D103E9008F2DA8 /* Project object */;
+}
