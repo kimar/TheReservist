@@ -20,4 +20,4 @@ git submodule update --init --recursive
 
 Then just open up `TheReservist.xcodeproj` and build it. 😉
 
-Licenses goes here: [LICENSE.md](LICENSE.md)
+Licenses goes here: [LICENSE.md](https://bitbucket.org/kimar/thereservist/raw/master/LICENSE.md)
