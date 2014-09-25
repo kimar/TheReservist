@@ -1,9 +1,9 @@
 # TheReservist
 
-![Icon-120](https://raw.githubusercontent.com/kimar/TheReservist/master/Assets/Icon-120.png)
+![Icon-120](https://bitbucket.org/kimar/thereservist/raw/master/Assets/Icon-120.png)
 
-![Marketing Screenshot 1](https://raw.githubusercontent.com/kimar/TheReservist/master/Assets/marketing1.png)
-![Marketing Screenshot 2](https://raw.githubusercontent.com/kimar/TheReservist/master/Assets/marketing2.png)
+![Marketing Screenshot 1](https://bitbucket.org/kimar/thereservist/raw/master/Assets/marketing1.png)
+![Marketing Screenshot 2](https://bitbucket.org/kimar/thereservist/raw/master/Assets/marketing2.png)
 
 This App let's you take a peek into the current Apple reservation states of your local Apple Store.
 
