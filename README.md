@@ -1,9 +1,9 @@
 # TheReservist
 
-![Icon-120](https://bitbucket.org/kimar/thereservist/raw/master/Assets/Icon-120.png)
+![Icon-120](Assets/Icon-120.png)
 
-![Marketing Screenshot 1](https://bitbucket.org/kimar/thereservist/raw/master/Assets/marketing1.png)
-![Marketing Screenshot 2](https://bitbucket.org/kimar/thereservist/raw/master/Assets/marketing2.png)
+![Marketing Screenshot 1](Assets/marketing1.png)
+![Marketing Screenshot 2](Assets/marketing2.png)
 
 This App let's you take a peek into the current Apple reservation states of your local Apple Store.
 
@@ -20,4 +20,4 @@ git submodule update --init --recursive
 
 Then just open up `TheReservist.xcodeproj` and build it. 😉
 
-Licenses goes here: [LICENSE.md](https://bitbucket.org/kimar/thereservist/src/master/LICENSE.md)
+Licenses goes here: [LICENSE.md](LICENSE.md)
